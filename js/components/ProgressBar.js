@@ -10,7 +10,7 @@ class ProgressBar {
 
     init() {
         if (!this.isValidSelector() ||
-        !this.isValidData) {
+            !this.isValidData) {
             return false;
         }
 
@@ -40,6 +40,7 @@ class ProgressBar {
             console.error('ERROR: netinkamo formato this.data');
             return false;
         }
+
         return true;
     }
 
@@ -61,9 +62,6 @@ class ProgressBar {
     }
 
     generateProgressBar(progressBar) {
-        // if (false) {
-        //     return "";
-        // }
         return `<div class="progress-bar">
                     <div class="texts">
                         <div class="label">${progressBar.label}</div>
@@ -85,16 +83,15 @@ class ProgressBar {
         let HTML = '';
 
         for (const progress of this.data) {
-
             if (!this.isValidDataProgressBar(progress)) {
                 continue;
             }
             HTML += this.generateProgressBar(progress);
+        }
 
             if (HTML === '') {
                 console.warn('WANING: this.data neturi nei vieno validaus objekto.');
                 return false;
-            }
         }
 
         this.DOM.innerHTML += HTML;

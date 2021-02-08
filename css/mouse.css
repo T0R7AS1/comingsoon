@@ -12,21 +12,11 @@
     height: 6px;
     margin-top: 4px;
     background-color: white;
-    /* background-image: url(../img/th.jpeg);
-    background-size: contain; */
     background-repeat: no-repeat;
     animation-name: mouseMove;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    /* animation-timing-function: ease;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-    animation-direction: normal; */
-    /* animation-play-state: paused; */
 }
-/* .mouse:hover > .wheel {
-    animation-play-state: paused;
-} */
 
 @keyframes mouseMove {
     0% {
@@ -39,6 +29,5 @@
     100% {
         margin-top: 12px;
         background-color: #fff0;
-        /* transform: rotate(720deg); */
     }
 }
