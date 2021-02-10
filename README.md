@@ -5,11 +5,7 @@
 
 # Coming soon
 
-_24 group website project_
-
-This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
-
-Site published at https://front-end-by-rimantas.github.io/24-grupe-coming-soon/
+Site published at https://t0r7as1.github.io/comingsoon/
 
 Design: [Coming soon](https://cdn.discordapp.com/attachments/648536139677958156/651479019476221953/coming-soon-wide.png)
 
@@ -18,8 +14,4 @@ Design: [Coming soon](https://cdn.discordapp.com/attachments/648536139677958156/
 -   responsive design
 -   repetitive content is generated/rendered;
 -   css animations
--   form validations
-
-## Authors
-
-[Rimantas](https://github.com/belauzas)
+-   form validations;
