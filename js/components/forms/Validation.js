@@ -90,7 +90,7 @@ class Validation {
     static textContainsLetter(text, letter, count = 1) {
         let letterCount = 0;
         for (let symbol of text) {
-            if (sybol === letter) {
+            if (symbol === letter) {
                 letterCount++;
             }
         }
